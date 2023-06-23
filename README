@@ -1,0 +1,9 @@
+Name: Trent Hollenkamp-Geragosian
+Project: Project 5
+Date: 4/27/2023
+
+
+Usage: ./oss [-h] -f logfile
+There are no default options
+
+Some issues: I dont know if it was a code issue or if the server was not able to go fast enough but my workers could never build up enough resources to actually trigger a deadlock. I adjusted the random ratios in the worker to skew heavily towards request and it still wouldnt fill fast enough. 
